@@ -6,10 +6,7 @@ const api = require('./routes/index');
 app.use(bodyParser.json());
 app.use('/api', api);
 
+
+
 const port = process.env.PORT || 3001;
-
-app.get('/',function(req,res){
-    res.send("hello,world");
-});
-
 app.listen(port, () => console.log(`Listening on port ${port}...`));

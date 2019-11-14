@@ -2,12 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const api = require("server\routes\index.js");
+
 class App extends React.Component {
   render() {
     return (
-      <h1>helloworld</h1>
+      api
     );
   }
 }
 
 export default App;
+    
