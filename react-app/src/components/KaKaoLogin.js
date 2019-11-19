@@ -16,6 +16,7 @@ class KakaoLogin extends Component {
       }
     });
   }
+
   render() {
     return (
       <div>
