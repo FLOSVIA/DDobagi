@@ -1,13 +1,8 @@
-import { Authentication } from "components";
+import React, { Component } from "react";
 
 class Login extends React.Component {
   render() {
-    return (
-      <div>
-        <Authentication />
-      </div>
-    );
+    return <div>login</div>;
   }
 }
-
-<Authentication mode={true} />;
+export default Login;
