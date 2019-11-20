@@ -1,10 +1,10 @@
 import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
-import { Route, Router } from "react-router-dom";
-
+import { Route, BrowserRouter as Router } from "react-router-dom";
 import Login from "./containers/Login";
 import Home from "./containers/Home";
+import api from "../server/api";
 
 class App extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class App extends React.Component {
       <Router>
         <div>
           <Route exact path="/" component={Home} />
-          <Route path="/Login/:login" component={Login} />
+          <Route path="/Login" component={Login} />
         </div>
       </Router>
     );
