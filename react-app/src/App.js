@@ -4,7 +4,6 @@ import "./App.css";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import Login from "./containers/Login";
 import Home from "./containers/Home";
-import api from "../server/api";
 
 class App extends React.Component {
   render() {
