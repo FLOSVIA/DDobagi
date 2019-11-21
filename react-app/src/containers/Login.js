@@ -1,10 +1,10 @@
-//로그인
-
 import React from "react";
-
-class Login extends React.Component {
-  render() {
-    return <div>login</div>;
-  }
-}
+import Bigtext from "../components/BigText";
+const Login = () => {
+  return (
+    <div>
+      <Bigtext>로그인</Bigtext>
+    </div>
+  );
+};
 export default Login;

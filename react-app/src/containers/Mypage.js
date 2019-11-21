@@ -5,4 +5,4 @@ class Mypage extends React.Component {
     return <div>Mypage</div>;
   }
 }
-export default Login;
+export default Mypage;

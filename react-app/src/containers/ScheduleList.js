@@ -5,4 +5,4 @@ class ScheduleList extends React.Component {
     return <div>ScheduleList</div>;
   }
 }
-export default Login;
+export default ScheduleList;
