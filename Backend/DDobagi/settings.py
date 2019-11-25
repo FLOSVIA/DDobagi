@@ -46,7 +46,9 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.AllowAny',
     ]
 }
-
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000"
+]
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',   
     'django.middleware.common.CommonMiddleware',
