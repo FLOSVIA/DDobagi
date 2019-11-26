@@ -4,5 +4,3 @@
 
 frontend 서버 실행 - frontend/ yarn start
 backend 서버 실행 - DDobagi/Script/activate - python manage.py runserver
-container/Login는 리덕스로부터 데이터를 받고 action을 실행하는 역할만을 전담하고
-component/LoginForm은 리덕스의 state가 어떻든 상관하지 않고 그저 사용자와 상호작용한 후 로그인 정보를 받아서 Container로 넘겨줍니다.
