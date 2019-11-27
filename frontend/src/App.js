@@ -1,27 +1,10 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import React, { Component } from "react";
-import calendar from "./container/calendar";
 
 class App extends Component {
   state = {
-    posts: [
-      {
-        id: 1,
-        title: "1111111",
-        content: "111111111111111"
-      },
-      {
-        id: 2,
-        title: "2222",
-        content: "22222222"
-      },
-      {
-        id: 3,
-        title: "33",
-        content: "333333"
-      }
-    ]
+    posts: []
   };
 
   async componentDidMount() {
