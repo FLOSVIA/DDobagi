@@ -17,8 +17,6 @@ class First extends React.Component {
                 <span>Login</span>
               </button>
             </Link>
-
-            <Route path="home" Component={Home}></Route>
           </React.Fragment>
         </BrowserRouter>
       </div>

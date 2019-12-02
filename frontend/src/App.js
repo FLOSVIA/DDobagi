@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <BrowserRouter>
         <React.Fragment>
-          <Route path="home" Component={Home}></Route>
-          <Route path="first" Component={First}></Route>
+          <Route path="/home" component={Home} />
+          <Route path="/first" component={First} />
         </React.Fragment>
       </BrowserRouter>
     );
