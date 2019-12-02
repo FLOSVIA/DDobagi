@@ -15,7 +15,6 @@ class App extends Component {
           <Route path="first" Component={First}></Route>
         </React.Fragment>
       </BrowserRouter>
-      </Home>
     );
   }
 }
