@@ -2,7 +2,6 @@ import "./First.css";
 import React from "react";
 
 import { Link, Router, Route, BrowserRouter, Switch } from "react-router-dom";
-import Home from "./Home";
 
 class First extends React.Component {
   render() {

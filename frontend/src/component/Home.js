@@ -4,7 +4,7 @@ import "./Home.css";
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="background">
         <span className="title">home page</span>
       </div>
     );
