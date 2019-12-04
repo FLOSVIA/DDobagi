@@ -4,10 +4,10 @@
   position: relative;
   height: 950px;
 }
-.title {
-  margin-left: 550px;
+.jemok {
   color: rgb(65, 65, 65);
   font-size: 30px;
-  margin-top: -620px;
   text-align: center;
+  margin-top: 100px;
+  margin: 100px;
 }
