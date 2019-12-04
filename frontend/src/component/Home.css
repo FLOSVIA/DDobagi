@@ -1,0 +1,13 @@
+.background {
+  background-image: url("./img/backfround.png");
+  background-size: cover;
+  position: relative;
+  height: 950px;
+}
+.title {
+  margin-left: 550px;
+  color: rgb(65, 65, 65);
+  font-size: 30px;
+  margin-top: -620px;
+  text-align: center;
+}
