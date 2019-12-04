@@ -6,7 +6,7 @@ class Home extends React.Component {
     return (
       <div className="background">
         <span className="title">home page</span>
-        <p>tesddddt</p>
+        <button>새로운 버튼</button>
       </div>
     );
   }
