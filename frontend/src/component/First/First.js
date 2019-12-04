@@ -11,7 +11,7 @@ class First extends React.Component {
           <React.Fragment>
             <span className="title">hello</span>
             <br></br>
-            <Link to="/home">
+            <Link to="/Main">
               <button>
                 <span>Login</span>
               </button>
