@@ -13,6 +13,9 @@ class App extends Component {
         <React.Fragment>
           <Route path="/main" component={Main} />
           <Route path="/first" component={First} />
+          <Route path="/MyPage" component={MyPage} />
+          <Route path="/Login" component={Login} />
+          <Route path="/SignUp" component={SignUp} />
         </React.Fragment>
       </BrowserRouter>
     );
