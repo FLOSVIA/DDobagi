@@ -1,5 +1,5 @@
 from .models import scheduleList
-import serializers from rest_framework
+from rest_framework import serializers
 
 
 class scheduleSerializer(serializers.ModelSerializer):
