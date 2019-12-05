@@ -4,11 +4,7 @@ import React, { Component } from "react";
 import { Link, Router, Route, BrowserRouter, Switch } from "react-router-dom";
 
 import First from "./component/First/First";
-<<<<<<< HEAD
-import Home from "./component/Home";
-=======
 import Main from "./component/Main/Main";
->>>>>>> dev
 
 class App extends Component {
   render() {

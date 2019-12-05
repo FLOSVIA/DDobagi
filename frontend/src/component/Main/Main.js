@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 
-class Home extends React.Component {
+class Main extends React.Component {
   render() {
     return (
       <div className="background">
@@ -12,4 +12,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default Main;
