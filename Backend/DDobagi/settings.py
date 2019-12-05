@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DDobagi.wsgi.application'
+#WSGI_APPLICATION = 'DDobagi.wsgi.application'
 
 
 # Database
