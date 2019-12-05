@@ -4,15 +4,22 @@ import React, { Component } from "react";
 import { Link, Router, Route, BrowserRouter, Switch } from "react-router-dom";
 
 import First from "./component/First/First";
+<<<<<<< HEAD
 import Home from "./component/Home";
+=======
+import Main from "./component/Main/Main";
+>>>>>>> dev
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <React.Fragment>
-          <Route path="/home" component={Home} />
+          <Route path="/main" component={Main} />
           <Route path="/first" component={First} />
+          <Route path="/MyPage" component={MyPage} />
+          <Route path="/Login" component={Login} />
+          <Route path="/SignUp" component={SignUp} />
         </React.Fragment>
       </BrowserRouter>
     );
