@@ -6,8 +6,17 @@
 }
 .jemok {
   color: rgb(65, 65, 65);
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
-  margin-top: 100px;
-  margin: 100px;
+  padding-top: 100px;
+  display: inline-block;
+}
+
+.month12 {
+  background-image: url("../img/month12.png");
+  background-size: cover;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  margin-top: 200px;
 }
