@@ -3,7 +3,7 @@ import "./App.css";
 import React, { Component } from "react";
 import { Link, Router, Route, BrowserRouter, Switch } from "react-router-dom";
 
-import First from "./component/First";
+import First from "./component/First/First";
 import Home from "./component/Home";
 
 class App extends Component {

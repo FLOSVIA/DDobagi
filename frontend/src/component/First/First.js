@@ -9,13 +9,9 @@ class First extends React.Component {
       <div className="background">
         <BrowserRouter>
           <React.Fragment>
-<<<<<<< Updated upstream
-            <span className="hi">hello</span>
-=======
-            <span className="a">hello, let's make plan</span>
+            <span className="title">hello</span>
             <br></br>
->>>>>>> Stashed changes
-            <Link to="/Main">
+            <Link to="/home">
               <button>
                 <span>Login</span>
               </button>
