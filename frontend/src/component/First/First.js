@@ -9,7 +9,7 @@ class First extends React.Component {
       <div className="background">
         <BrowserRouter>
           <React.Fragment>
-            <span className="title">hello</span>
+            <span className="a">Hello, Let's Make Plan!</span>
             <br></br>
             <Link to="/Main">
               <button>

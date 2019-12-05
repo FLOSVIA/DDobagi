@@ -5,7 +5,8 @@ body {
 button {
   width: 160px;
   height: 55px;
-  margin-left: 41em;
+  margin-left: 47em;
+  margin-top: 40px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-transform: uppercase;
@@ -20,19 +21,17 @@ button {
   cursor: pointer;
   outline: none;
 }
-
+.a {
+  margin-left: 650px;
+  font-size: 30px;
+  margin-top: 300px;
+  display: inline-block;
+}
 .background {
   background-image: url("../img/backfround.png");
   background-size: cover;
   position: relative;
   height: 950px;
-}
-.title {
-  margin-left: 550px;
-  color: rgb(65, 65, 65);
-  font-size: 30px;
-  margin-top: -620px;
-  text-align: center;
 }
 
 button:hover {
