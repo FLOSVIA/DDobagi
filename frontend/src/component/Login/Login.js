@@ -19,12 +19,11 @@ class Login extends Component {
               <div className="pswd">
                 <input type="password"></input>
               </div>
-
               <Link to="/Singup">
                 <span className="signUp">회원이 아니신가요?</span>
               </Link>
             </div>
-            <button>Log In</button>
+            <button className="check">Log In</button>
           </React.Fragment>
         </BrowserRouter>
       </div>
