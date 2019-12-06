@@ -22,6 +22,7 @@
 input {
   width: 250px;
   height: 40px;
+  outline: none;
 }
 .base {
   margin-left: 650px;
@@ -43,9 +44,20 @@ input {
   font-weight: bold;
 }
 
-button:not(.check) {
+input[type="button"] {
+  margin-left: 10px;
   width: 50px;
   height: 40px;
-  border-radius: 0;
-  box-shadow: none;
+  background-color: #feffc7;
+  color: #a8a8a8;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+input[type="button"]:hover {
+  background-color: #ffc6f6;
+  color: #feffc7;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
