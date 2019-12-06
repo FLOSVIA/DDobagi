@@ -26,7 +26,7 @@ class Schedule extends React.Component {
         {this.state.posts.map(item => (
           <div key={item.id}>
             <h1>{item.title}</h1>
-            <span>{item.content}</span>
+            <span>{item.contents}</span>
           </div>
         ))}
       </div>
