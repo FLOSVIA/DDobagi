@@ -23,7 +23,7 @@ class Login extends Component {
                 <span className="signUp">회원이 아니신가요?</span>
               </Link>
             </div>
-            <button className="check">Log In</button>
+            <button>Log In</button>
           </React.Fragment>
         </BrowserRouter>
       </div>

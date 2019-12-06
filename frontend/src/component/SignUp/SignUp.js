@@ -13,7 +13,7 @@ class Login extends Component {
             <div className="base">
               <span className="textID">ID</span>
               <div className="id">
-                <input type="ID"/><button>확인</button>
+                <input type="ID"/><input type="button" value="check"/>
               </div>
               <span className="textPW">PASSWORD</span>
               <div className="pswd">
@@ -24,7 +24,7 @@ class Login extends Component {
                 <input type="password"></input>
               </div>
             </div>
-            <button className="check">Sign Up</button>
+            <button>Sign Up</button>
           </React.Fragment>
         </BrowserRouter>
       </div>

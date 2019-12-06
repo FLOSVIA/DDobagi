@@ -22,6 +22,7 @@
 input {
   width: 250px;
   height: 40px;
+  outline:none;
 }
 .base {
   margin-left: 650px;
