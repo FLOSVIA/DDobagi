@@ -6,7 +6,7 @@ class Main extends React.Component {
     return (
       <div className="background">
         <span className="title">home page</span>
-        <button>새로운 버튼</button>
+        <button className="check">새로운 버튼</button>
       </div>
     );
   }

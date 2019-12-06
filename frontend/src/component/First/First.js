@@ -14,7 +14,7 @@ class First extends Component {
               <b className="last">Plan</b>!
             </span>
             <Link to="/Main">
-              <button>
+              <button className="check">
                 <span>Start</span>
               </button>
             </Link>

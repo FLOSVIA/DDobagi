@@ -1,0 +1,50 @@
+.sign {
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 725px;
+  margin-top: 80px;
+}
+.image {
+  background-image: url("../img/backfround.png");
+  background-size: cover;
+  position: relative;
+  height: 950px;
+}
+.signUp {
+  text-decoration: none;
+  display: inline-block;
+  color: gray;
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+}
+.base {
+  margin-left: 650px;
+  margin-top: 30px;
+}
+.id {
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+.pswd {
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.textID {
+  font-weight: bold;
+}
+.textPW {
+  font-weight: bold;
+}
+
+button:not(.check) {
+  width: 50px;
+  height: 40px;
+  border-radius: 0;
+}
