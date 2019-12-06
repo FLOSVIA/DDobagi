@@ -13,7 +13,8 @@ class Login extends Component {
             <div className="base">
               <span className="textID">ID</span>
               <div className="id">
-                <input type="ID"/><input type="button" value="check"/>
+                <input type="ID" />
+                <input type="button" value="check" />
               </div>
               <span className="textPW">PASSWORD</span>
               <div className="pswd">
