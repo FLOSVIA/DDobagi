@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Quick.css";
+
 import { Link, Router, Route, BrowserRouter, Switch } from "react-router-dom";
 
 class Quick extends React.Component {
