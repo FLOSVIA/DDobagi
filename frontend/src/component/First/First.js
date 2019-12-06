@@ -1,20 +1,26 @@
 import "./First.css";
-import React from "react";
+import React, { Component } from "react";
 
 import { Link, Router, Route, BrowserRouter, Switch } from "react-router-dom";
 
-class First extends React.Component {
+class First extends Component {
   render() {
     return (
       <div className="background">
         <BrowserRouter>
           <React.Fragment>
-            <span className="a">Hello, Let's Make Plan!</span>
-            <br></br>
+            <span className="a">
+              <b className="hello">Hello</b>, Let's Make{" "}
+              <b className="last">Plan</b>!
+            </span>
             <Link to="/Main">
               <button>
-                <span>Login</span>
+                <span>Start</span>
               </button>
+            </Link>
+            <br></br>
+            <Link to="/Quick">
+              <span className="qst">Quick Start</span>
             </Link>
           </React.Fragment>
         </BrowserRouter>
