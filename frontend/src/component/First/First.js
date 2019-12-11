@@ -16,10 +16,9 @@ class First extends Component {
             <span>Start</span>
           </button>
         </Link>
-        <br></br>
-        <Link to="/Quick">
+        <div className="qst">
           <span className="qst">Quick Start</span>
-        </Link>
+        </div>
       </div>
     );
   }
