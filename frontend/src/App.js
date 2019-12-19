@@ -8,6 +8,7 @@ import Main from "./component/Main/Main";
 import Login from "./component/Login/Login";
 import SignUp from "./component/SignUp/SignUp";
 import Schedule from "./component/Schedule/Schedule";
+import MyPage from "./component/MyPage/MyPage";
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path="/Schedule" component={Schedule} />
           <Route path="/Login" component={Login} />
           <Route path="/SignUp" component={SignUp} />
+          <Route path="/MyPage" component={MyPage} />
         </React.Fragment>
       </BrowserRouter>
     );
