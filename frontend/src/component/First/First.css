@@ -54,3 +54,14 @@ button:hover {
 .last {
   color: rgb(255, 188, 64);
 }
+
+.menu a {
+  line-height: 75px;
+  color: black;
+  padding: 0 15px;
+  display: block;
+}
+
+.menu li {
+  float: left;
+}

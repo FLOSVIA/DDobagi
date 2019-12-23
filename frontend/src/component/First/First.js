@@ -7,19 +7,42 @@ class First extends Component {
   render() {
     return (
       <div className="background">
-        <div className="all">
-          <div className="a">
+        <header>
+          <div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="main">main</a>
+                </li>
+                <li>
+                  <a href="main">main</a>
+                </li>
+                <li>
+                  <a href="main">main</a>
+                </li>
+                <li>
+                  <a href="main">main</a>
+                </li>
+                <li>
+                  <a href="main">main</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div className="center">
+          <span className="a">
             <b className="hello">Hello</b>, Let's Make{" "}
             <b className="last">Plan</b>!
-          </div>
+          </span>
           <Link to="/Main">
             <button>
               <span>Start</span>
             </button>
           </Link>
-          <Link to="/Quick">
+          <div className="qst">
             <span className="qst">Quick Start</span>
-          </Link>
+          </div>
         </div>
       </div>
     );
