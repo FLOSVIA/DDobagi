@@ -7,6 +7,29 @@ class First extends Component {
   render() {
     return (
       <div className="background">
+        <header>
+          <div className="wrapper">
+            <nav>
+              <ul className="menu">
+                <li>
+                  <a href="main">main</a>
+                </li>
+                <li>
+                  <a href="mypage">mypage</a>
+                </li>
+                <li>
+                  <a href="schdule">schdule</a>
+                </li>
+                <li>
+                  <a href="login">login</a>
+                </li>
+                <li>
+                  <a href="signup">signup</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
         <div className="center">
           <span className="a">
             <b className="hello">Hello</b>, Let's Make{" "}
