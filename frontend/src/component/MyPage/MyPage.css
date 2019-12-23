@@ -1,5 +1,61 @@
 .a {
-  width: 100px;
-  height: 100px;
+  width: 1000px;
+  height: 700px;
+  background-color: #ffffff;
   text-align: center;
+  display: inline-block;
+  margin: 100px;
+  box-shadow: 0px 0px 40px #d5d5d5;
+}
+
+.background {
+  background-image: url("../img/backfround.png");
+  position: relative;
+  height: 950px;
+  background-size: cover;
+}
+
+input[name="title"] {
+  width: 800px;
+  height: 50px;
+  margin-bottom: 50px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input[name="content"] {
+  width: 800px;
+  height: 300px;
+  margin-bottom: 50px;
+  border: 2px solid black;
+}
+h3 {
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: inherit;
+}
+input[name="title"]::placeholder {
+  font-size: 25px;
+}
+
+input[name="content"]::placeholder {
+  font-size: 15px;
+}
+
+input[type="submit"] {
+  background-color: cadetblue;
+  border-radius: 10em;
+  height: 60px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  box-shadow: 0px 0px 40px #d5d5d5;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: cadetblue;
+  border: 2px solid cadetblue;
+  box-shadow: none;
 }
