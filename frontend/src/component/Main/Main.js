@@ -9,6 +9,7 @@ class Home extends React.Component {
           <span className="jemok">Hello, Let's Make Plan!</span>
 
           <div className="month12"></div>
+          <div className="month1"></div>
         </center>
       </div>
     );
