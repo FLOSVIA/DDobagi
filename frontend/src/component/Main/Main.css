@@ -24,8 +24,7 @@
 .month1 {
   background-image: url("../img/month1.png");
   background-size: cover;
-  position: relative;
+  float: left;
   height: 400px;
   width: 400px;
-  margin-top: 200px;
 }
