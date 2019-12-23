@@ -1,12 +1,8 @@
-body {
-  background-color: #f2f1ff;
-}
-
 button {
   width: 160px;
   height: 55px;
   margin-left: 47em;
-  margin-top: 400px;
+  margin-top: 70px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-transform: uppercase;
@@ -30,22 +26,27 @@ button:hover {
 .a {
   margin-left: 650px;
   font-size: 30px;
-  margin-top: 100px;
+  margin-top: 200px;
+  display: inline-block;
 }
 .background {
   background-image: url("../img/backfround.png");
   background-size: cover;
-  position: relative;
   height: 950px;
 }
 
 .qst {
-  text-decoration: none;
   margin-left: 745px;
   margin-top: 10px;
-  color: rgb(0, 0, 0);
+
+  text-decoration: none;
+  color: rgb(97, 97, 97);
 }
 
+.center {
+  position: absolute;
+  margin: auto;
+}
 .hello {
   color: rgb(245, 167, 255);
 }
